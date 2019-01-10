@@ -5,23 +5,12 @@ services:
     container_name: harryseong-microservices
     image: harryseong/harryseong-microservices:0.0.1-SNAPSHOT
     ports:
-    - 8080:8080
-  harryseong-client:
-    container_name: harryseong-client
-    image: harryseong/harryseong-client:0.0.0
-    ports:
-    - 4203:80
-#    harryseong-microservices CORS open to only port 4203. The below 2 services are generated to test this.
-  harryseong-client-2:
-    container_name: harryseong-client-2
-    image: harryseong/harryseong-client:0.0.0
-    ports:
-    - 4204:80
-  harryseong-client-3:
-    container_name: harryseong-client-3
-    image: harryseong/harryseong-client:0.0.0
-    ports:
-    - 4205:80
+    - 443:8080
+#  harryseong-client:
+#    container_name: harryseong-client
+#    image: harryseong/harryseong-client:0.0.0
+#    ports:
+#    - 4203:80
 networks:
   default:
     external:
