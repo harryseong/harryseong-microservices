@@ -5,7 +5,7 @@ services:
     container_name: harryseong-microservices
     image: harryseong/harryseong-microservices:0.0.1-SNAPSHOT
     ports:
-    - 443:8080
+    - 8080:8080
 #  harryseong-client:
 #    container_name: harryseong-client
 #    image: harryseong/harryseong-client:0.0.0
