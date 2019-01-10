@@ -1,0 +1,14 @@
+server.port=8080
+server.servlet.context-path=/
+
+debug=false
+
+# session timeout is 4 hours
+server.servlet.session.timeout=240m
+
+# Must reference MySQL Docker container name as the host: "harryseong-mysql"
+spring.datasource.url=jdbc:mysql://harryseong-mysql:3306/harryseong
+spring.datasource.username=CHANGEME
+spring.datasource.password=CHANGEME
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=none
