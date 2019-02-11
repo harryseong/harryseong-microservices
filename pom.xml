@@ -66,7 +66,7 @@
             <version>8.0.13</version>
         </dependency>
 
-        <!--API-->
+        <!--API Documentation-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -77,6 +77,28 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
+
+        <!--Spotify web API wrapper for Java-->
+        <dependency>
+            <groupId>se.michaelthelin.spotify</groupId>
+            <artifactId>spotify-web-api-java</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+
+        <!--Google Cloud Speech-->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-speech</artifactId>
+            <version>0.70.0-beta</version>
+        </dependency>
+
+        <!--Google Cloud Storage-->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-storage</artifactId>
+            <version>1.59.0</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

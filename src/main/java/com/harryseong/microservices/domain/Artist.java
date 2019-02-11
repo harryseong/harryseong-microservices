@@ -33,6 +33,15 @@ public class Artist {
     public Artist() {
     }
 
+    public Artist(String name) {
+        this.name = name;
+    }
+
+    public Artist(String name, Date createdDate) {
+        this.name = name;
+        this.createdDate = createdDate;
+    }
+
     public Artist(long id, String name) {
         this.id = id;
         this.name = name;
